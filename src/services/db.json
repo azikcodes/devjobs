@@ -1,5 +1,6 @@
-let JobsVacancy = [
-    {
+[ 
+        {
+        "id":1,
         "title":"Senior Software Engineer" ,
         "logo":"https://devjobs-backend.netlify.app/icons/scoot.svg",  
         "whenPlaced":"5h ago" ,
@@ -9,6 +10,7 @@ let JobsVacancy = [
         "Full time":true
     },
     {
+        "id":2,
         "title":"Haskell and PureScript Dev" ,
         "logo":"https://devjobs-backend.netlify.app/icons/blogr.svg",  
         "whenPlaced":"20h ago" ,
@@ -17,8 +19,9 @@ let JobsVacancy = [
         "workTime":"Part time",
         "Full time":false
         
-        },
+    },
     {
+        "id":3,
         "title":"Midlevel Back End Engineer",
         "logo":"https://devjobs-backend.netlify.app/icons/vector.svg",
         "whenPlaced":"1d ago",
@@ -29,6 +32,7 @@ let JobsVacancy = [
 
     },
     {
+        "id":4,
         "title":"Senior Application Engineer" ,
         "logo":"https://devjobs-backend.netlify.app/icons/officialLite.svg",  
         "whenPlaced":"2d ago" ,
@@ -38,6 +42,7 @@ let JobsVacancy = [
         "fullTime":true
     },
     {
+        "id":5,
         "title":"Remote DevOps Engineer" ,
         "logo":"https://devjobs-backend.netlify.app/icons/Pod.svg", 
         "whenPlaced":"2d ago" ,
@@ -47,6 +52,7 @@ let JobsVacancy = [
         "Full time":false
     },
     {
+        "id":6,
         "title":"Desktop Support Manager",    
         "logo":"https://devjobs-backend.netlify.app/icons/creative.svg",
         "whenPlaced":"4d ago",
@@ -54,8 +60,9 @@ let JobsVacancy = [
         "companyCountry":"Germany",
         "workTime":"Part Time",
         "Full time":false
-        },
+    },
     {
+        "id":7,
         "title":"iOS Engineer",    
         "logo":"https://devjobs-backend.netlify.app/icons/pomodoro.svg",
         "whenPlaced":"1w ago",
@@ -65,6 +72,7 @@ let JobsVacancy = [
         "Full time":true
     },
     {
+        "id":8,
         "title":"Senior EJB Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/maker.svg",
         "whenPlaced":"1w ago",
@@ -74,6 +82,7 @@ let JobsVacancy = [
         "fullTime":true
     },    
     {
+        "id":9,
         "title":"Senior Frontend Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/coffeeroasters.svg",
         "whenPlaced":"1w ago",
@@ -83,6 +92,7 @@ let JobsVacancy = [
         "fullTime":false
     },    
     {
+        "id":10,
         "title":"App & Website Designer",    
         "logo":"https://devjobs-backend.netlify.app/icons/Mastercraft.svg",
         "whenPlaced":"2w ago",
@@ -92,6 +102,7 @@ let JobsVacancy = [
         "fullTime":false
     },    
     {
+        "id":11,
         "title":"Fullstack Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/Crowdfund.svg",
         "whenPlaced":"1mo ago",
@@ -101,6 +112,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":12,
         "title":"Technical Lead Engineer",    
         "logo":"https://devjobs-backend.netlify.app/icons/Typemaster.svg",
         "whenPlaced":"4d ago",
@@ -110,6 +122,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":13,
         "title":"iOS Developer Engineer",    
         "logo":"https://devjobs-backend.netlify.app/icons/blogr.svg",
         "whenPlaced":"1d ago",
@@ -119,6 +132,7 @@ let JobsVacancy = [
         "fullTime":true
     },
     {
+        "id":14,
         "title":"Android Developer Engineer",    
         "logo":"https://devjobs-backend.netlify.app/icons/scoot.svg",
         "whenPlaced":"23h ago",
@@ -128,6 +142,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":15,
         "title":"SMM Marketolog",    
         "logo":"https://devjobs-backend.netlify.app/icons/Pod.svg",
         "whenPlaced":"23h ago",
@@ -137,6 +152,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":16,
         "title":"Copywrighter",    
         "logo":"https://devjobs-backend.netlify.app/icons/pomodoro.svg",
         "whenPlaced":"2w ago",
@@ -146,6 +162,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":17,
         "title":"Junior FrontEnd developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/officialLite.svg",
         "whenPlaced":"1h ago",
@@ -155,6 +172,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":18,
         "title":"Junior BackEnd developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/coffeeroasters.svg",
         "whenPlaced":"1h ago",
@@ -164,6 +182,7 @@ let JobsVacancy = [
         "fullTime":true
     },
     {
+        "id":19,
         "title":"Web Designer",    
         "logo":"https://devjobs-backend.netlify.app/icons/creative.svg",
         "whenPlaced":"2h ago",
@@ -173,6 +192,7 @@ let JobsVacancy = [
         "fullTime":true  
     },
     {
+        "id":20,
         "title":"Fullstack (mern stack) Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/epam.png",
         "whenPlaced":"1w ago",
@@ -182,6 +202,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":21,
         "title":"PHP  Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/blogr.svg",
         "whenPlaced":"2w ago",
@@ -191,6 +212,7 @@ let JobsVacancy = [
         "fullTime":true  
     },
     {
+        "id":22,
         "title":"Python  Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/vector.svg",
         "whenPlaced":"1h ago",
@@ -200,6 +222,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":23,
         "title":"Web Developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/epam.png",
         "whenPlaced":"1h ago",
@@ -209,6 +232,7 @@ let JobsVacancy = [
         "fullTime": true
     } ,  
     {
+        "id":24,
         "title":"Swift developer",    
         "logo":"https://devjobs-backend.netlify.app/icons/Crowdfund.svg",
         "whenPlaced":"1d ago",
@@ -218,6 +242,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":25,
         "title":"Remote DevOps Engineer" ,
         "logo":"https://devjobs-backend.netlify.app/icons/Pod.svg", 
         "whenPlaced":"2d ago" ,
@@ -227,6 +252,7 @@ let JobsVacancy = [
         "fullTime":false
     },
     {
+        "id":26,
         "title":"JavaScript, NestJS developer" ,
         "logo":"https://devjobs-backend.netlify.app/icons/pomodoro.svg", 
         "whenPlaced":"2d ago" ,
@@ -236,6 +262,3 @@ let JobsVacancy = [
         "fullTime":false
     }
 ]
-
-
-export default JobsVacancy;
