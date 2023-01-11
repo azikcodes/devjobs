@@ -1,0 +1,29 @@
+.jobslist__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 104px;
+    .jobslist{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px 30px;
+        align-content: start;
+        margin-bottom: 56px;
+    }
+    .loadmore{
+        padding: 16px 30px;
+        background: #5964E0;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #FFFFFF;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: 0.5s;
+        &:active{
+            transform: scale(0.9);
+        }
+    }
+}

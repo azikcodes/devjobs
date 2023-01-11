@@ -1,0 +1,46 @@
+header{
+    height: 160px;
+    padding-top: 44px;
+    background: url(../../images/header-bg.svg) center center/auto no-repeat;
+    margin-bottom: 120px;
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        .header__theme{
+            display: flex;
+            align-items: center;
+            & > div:not(:last-child){
+                margin-right: 16px;
+            }
+            .moon, .sun{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+            .control{
+                position: relative;
+                display: flex;
+                align-items: center;
+                width: 48px;
+                height: 24px;
+                border-radius: 12px;
+                background-color: #fff;
+                padding: 0 5px;
+                cursor: pointer;
+                &:after{
+                    position: absolute;
+                    left: 5px;
+                    content: '';
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 100%;
+                    background-color: #5964E0;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+            }
+            
+        }
+    }
+    
+}
