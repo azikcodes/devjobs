@@ -1,6 +1,5 @@
 import {Component} from 'react';
 import JobsItem from '../JobsItem/JobsItem';
-import JobsVacancy from '../../services/JobsVacancy';
 import './jobsList.scss';
 
 
